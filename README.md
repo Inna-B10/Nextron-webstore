@@ -16,9 +16,9 @@
 - Bruk Image komponenten fra next for bilder,
 - Sjekk lighthouse observability tool for å sjekke hvor høy score dere får   
 
-## About
+## 💎 Description
 
-[<img src="preview.png" height="250" align="right"/>](preview.png)
+[<img src="preview.png" height="250" align="right" style="margin-left:20px" />](preview.png)
 
 A modern e-commerce platform built with **Next.js 15** + **MongoDB** for seamless client-server separation.
 
@@ -32,52 +32,84 @@ Nextron is a simple full-stack online store crafted using the **App Router** in 
 - It features products, details, and search.
 - Logged-in users can manage a cart, favorites, and simulate purchases.
 
+### 🧩 Tech Stack
+
+![Next.js](https://img.shields.io/badge/Next.js_15.3.3-424242?logo=nextdotjs)
+![React](https://img.shields.io/badge/React_19.0.0-424242?logo=react&logoColor=61DAFB)
+![Clerk](https://img.shields.io/badge/%40clerk%2Fnextjs_6.22.0-424242?logo=clerk)
+![Mongo DB](https://img.shields.io/badge/mongodb_6.17.0-424242?logo=mongodb)
+![Mailgun.js](https://img.shields.io/badge/mailgun.js_12.0.3-424242?logo=mailgun)
+![Tailwind](https://img.shields.io/badge/tailwindcss_4-424242?logo=tailwindcss&logoColor=06B6D4)
+![axios](https://img.shields.io/badge/axios_1.9.0-424242?logo=axios)
+![@tanstack/react-query](https://img.shields.io/badge/%40tanstack%2Freact--query_5.80.7-424242?logo=reactquery)
+![react-hook-form](https://img.shields.io/badge/react--hook--form_7.62.0-424242?logo=reacthookform&logoColor=white)
+![zod](https://img.shields.io/badge/zod_4.0.14-424242?logo=zod)
+![framer-motion](https://img.shields.io/badge/framer--motion_12.15.0-424242?logo=framer)
+
+<!-- end:tech-stack -->
+![react-dom](https://img.shields.io/badge/react--dom_19.0.0-424242?logo=react&logoColor=61DAFB)
+![@clerk/backend](https://img.shields.io/badge/%40clerk%2Fbackend_2.6.3-424242)
+![@clerk/themes](https://img.shields.io/badge/%40clerk%2Fthemes_2.2.50-424242)
+![dotenv](https://img.shields.io/badge/dotenv_17.0.1-424242?logo=dotenv)
+![form-data](https://img.shields.io/badge/form--data_4.0.4-424242)
+![@hookform/resolvers](https://img.shields.io/badge/%40hookform%2Fresolvers_5.2.1-424242)
+![react-feather](https://img.shields.io/badge/react--feather_2.0.10-424242)
+![@headlessui/react](https://img.shields.io/badge/%40headlessui%2Freact_2.2.7-424242)
+![tailwind-merge](https://img.shields.io/badge/tailwind--merge_3.3.1-424242)
+![react-hot-toast](https://img.shields.io/badge/react--hot--toast_2.5.2-424242)
+![clsx](https://img.shields.io/badge/clsx_2.1.1-424242)
+![path-to-regexp](https://img.shields.io/badge/path--to--regexp_8.2.0-424242)
+
+<!--
 <details style="border:1px solid #d4d4d4; border-radius:2px; padding:1rem;">
-<summary><h2 style="display:inline; padding-left:6px;">🧩 Tech Stack:</h2></summary>
+<summary><h3 style="display:inline; padding-left:6px;">🧩 Tech Stack</h3></summary>
 
 **Framework**
 
-![next](https://img.shields.io/badge/next_15.3.3-424242?&logo=next.js&logoColor=white)
-![react](https://img.shields.io/badge/react_19.0.0-424242?&logo=react&logoColor=61DAFB)
-![react-dom](https://img.shields.io/badge/react--dom_19.0.0-424242?&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js_15.3.3-424242?logo=nextdotjs)
+![React](https://img.shields.io/badge/React_19.0.0-424242?logo=react&logoColor=61DAFB)
+![react-dom](https://img.shields.io/badge/react--dom_19.0.0-424242?logo=react&logoColor=61DAFB)
 
 **Authentication / User Management**
 
-![@clerk/nextjs](https://img.shields.io/badge/%40clerk%2Fnextjs_6.22.0-424242?)
-![@clerk/backend](https://img.shields.io/badge/%40clerk%2Fbackend_2.6.3-424242?)
-![@clerk/themes](https://img.shields.io/badge/%40clerk%2Fthemes_2.2.50-424242?)
+![@clerk/nextjs](https://img.shields.io/badge/%40clerk%2Fnextjs_6.22.0-424242?logo=clerk)
+![@clerk/backend](https://img.shields.io/badge/%40clerk%2Fbackend_2.6.3-424242)
+![@clerk/themes](https://img.shields.io/badge/%40clerk%2Fthemes_2.2.50-424242)
 
 **State & Data**
 
-![@tanstack/react-query](https://img.shields.io/badge/%40tanstack%2Freact--query_5.80.7-424242?)
-![axios](https://img.shields.io/badge/axios_1.9.0-424242?)
-![mongodb](https://img.shields.io/badge/mongodb_6.17.0-424242?)
-![dotenv](https://img.shields.io/badge/dotenv_17.0.1-424242?)
-![form-data](https://img.shields.io/badge/form--data_4.0.4-424242?)
+![@tanstack/react-query](https://img.shields.io/badge/%40tanstack%2Freact--query_5.80.7-424242?logo=reactquery)
+![axios](https://img.shields.io/badge/axios_1.9.0-424242?logo=axios)
+![mongodb](https://img.shields.io/badge/mongodb_6.17.0-424242?logo=mongodb)
+![dotenv](https://img.shields.io/badge/dotenv_17.0.1-424242?logo=dotenv)
+![form-data](https://img.shields.io/badge/form--data_4.0.4-424242)
 
 **Forms & Validation**
 
-![react-hook-form](https://img.shields.io/badge/react--hook--form_7.62.0-424242?)
-![@hookform/resolvers](https://img.shields.io/badge/%40hookform%2Fresolvers_5.2.1-424242?)
-![zod](https://img.shields.io/badge/zod_4.0.14-424242?)
+![react-hook-form](https://img.shields.io/badge/react--hook--form_7.62.0-424242?logo=reacthookform&logoColor=white)
+![zod](https://img.shields.io/badge/zod_4.0.14-424242?logo=zod)
+![@hookform/resolvers](https://img.shields.io/badge/%40hookform%2Fresolvers_5.2.1-424242)
 
 **UI & Animations**
 
-![framer-motion](https://img.shields.io/badge/framer--motion_12.15.0-424242?&logo=framer&logoColor=white)
-![react-feather](https://img.shields.io/badge/react--feather_2.0.10-424242?)
-![@headlessui/react](https://img.shields.io/badge/%40headlessui%2Freact_2.2.7-424242?)
-![tailwind-merge](https://img.shields.io/badge/tailwind--merge_3.3.1-424242?)
-![tailwindcss](https://img.shields.io/badge/tailwindcss_4-424242?&logo=tailwindcss&logoColor=06B6D4)
-![react-hot-toast](https://img.shields.io/badge/react--hot--toast_2.5.2-424242?)
+![tailwindcss](https://img.shields.io/badge/tailwindcss_4-424242?logo=tailwindcss&logoColor=06B6D4)
+![framer-motion](https://img.shields.io/badge/framer--motion_12.15.0-424242?logo=framer)
+![react-feather](https://img.shields.io/badge/react--feather_2.0.10-424242)
+![@headlessui/react](https://img.shields.io/badge/%40headlessui%2Freact_2.2.7-424242)
+![tailwind-merge](https://img.shields.io/badge/tailwind--merge_3.3.1-424242)
+![react-hot-toast](https://img.shields.io/badge/react--hot--toast_2.5.2-424242)
 
 **Utilities**
 
-![clsx](https://img.shields.io/badge/clsx_2.1.1-424242?)
-![path-to-regexp](https://img.shields.io/badge/path--to--regexp_8.2.0-424242?)
-![mailgun.js](https://img.shields.io/badge/mailgun.js_12.0.3-424242?)
+![mailgun.js](https://img.shields.io/badge/mailgun.js_12.0.3-424242?logo=mailgun)
+![clsx](https://img.shields.io/badge/clsx_2.1.1-424242)
+![path-to-regexp](https://img.shields.io/badge/path--to--regexp_8.2.0-424242)
+
+</details>
+ -->
 
 <details style="border:1px solid #d4d4d4; border-radius:2px; padding:1rem;">
-<summary><h3 style="display:inline; padding-left:6px;">📦 Dependencies:</h3></summary>
+<summary><h4 style="display:inline; padding-left:6px;">🗃 Dependencies</h4></summary>
 
 ```bash
 npm install -D @trivago/prettier-plugin-sort-imports prettier
@@ -101,11 +133,9 @@ npm install mailgun.js form-data #emails
 npm install @clerk/backend #to get user data on the server
 ```
 </details>
-</details>
 
-<br />
 <details style="border:1px solid #d4d4d4; border-radius:2px; padding:1rem;">
-<summary><h2 style="display:inline; padding-left:6px;">▶️ Getting Started (Prepare & Run):</h2></summary>
+<summary><h3 style="display:inline; padding-left:6px;">▶️ Getting Started (Prepare & Run)</h3></summary>
 
 ### ⚙️ Preparing:
 
@@ -158,7 +188,9 @@ npm run dev
 ```
 </details>
 
-## 📋 TODO:
+---
+
+### 📋 TODO:
 
 #### *functional:*
 - [ ] user provider
@@ -199,13 +231,14 @@ user:
 
 
 <details style="border:1px solid #d4d4d4; border-radius:2px; padding:1rem;">
-<summary><h3 style="display:inline; padding-left:6px;">✅ Done:</h3></summary>
+<summary><h4 style="display:inline; padding-left:6px;">✅ Done</h4></summary>
 
 - [x] pagination
 - [x] notFound page
 - [x] category page
 - [x] registration (clerk?)
 - [x] product page
+- [x] move from .json files to DB
 - [x] add/delete to shopping card
 - [x] add/delete to favorites
 - [x] change image sizes for adaptive layout
